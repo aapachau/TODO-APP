@@ -44,6 +44,12 @@ export default {
           950: '#022c22',
         },
       },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, #6366f1 0%, #10b981 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, #4f46e5 0%, #059669 100%)',
+        'gradient-light': 'linear-gradient(135deg, #e0e7ff 0%, #d1fae5 100%)',
+        'gradient-dark': 'linear-gradient(135deg, #3730a3 0%, #065f46 100%)',
+      },
       boxShadow: {
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
         DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',

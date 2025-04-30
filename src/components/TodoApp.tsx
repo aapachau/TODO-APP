@@ -8,15 +8,15 @@ import { TodoProvider } from '../context/TodoContext';
 const TodoApp: React.FC = () => {
   return (
     <TodoProvider>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-primary dark:bg-gradient-dark transition-all duration-300">
         <div className="container mx-auto px-4 py-8 max-w-xl">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 sm:p-8 transition-colors">
+          <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-xl shadow-lg p-6 sm:p-8 transition-all">
             <Header />
             <TodoForm />
             <TodoFilter />
             <TodoList />
           </div>
-          <footer className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
+          <footer className="mt-6 text-center text-sm text-white dark:text-gray-300">
             <p>TodoFlow © {new Date().getFullYear()}</p>
           </footer>
         </div>
